@@ -2,9 +2,9 @@
     display: flex; 
     flex-direction: column;
     justify-content: center; 
+    width: 100%;
     max-width: 112.8rem;
     border-radius: 2rem; 
-    width: 98%;
     padding-bottom: 2rem;
 }
 
@@ -17,17 +17,18 @@
 
 .rodape .social { 
     /* margin: 0 auto; */
-    color: #FAFAFA;
+    /* color: #FAFAFA; */
     background-color: #B71C1C;  
     display: flex; 
     justify-content: center; 
     align-items: center;
-    max-width: 1128px; 
+    max-width: 112.8rem; 
     border-radius: 2rem;
 }
 
 .rodape .social .icone {
     width: 4rem; 
+    height: 4rem;
     margin: 2rem 6rem;
 }
 
